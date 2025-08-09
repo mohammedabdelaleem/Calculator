@@ -6,7 +6,7 @@ let Calculator = {
   
   WriteText: function () {
     input.value = this.Expression;
-  },
+  },  
 
   ClickOperation: function (text) {
     if (text === "C") {

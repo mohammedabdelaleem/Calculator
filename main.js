@@ -1,7 +1,9 @@
-const input = document.getElementById("input");
-const result = document.getElementById("result");
+// const input = document.getElementById("input");
+// const result = document.getElementById("result");
 
 let Calculator = {
+  input: document.getElementById("input"),
+  result : document.getElementById("result"),
   Expression: "",
   
   WriteText: function () {
